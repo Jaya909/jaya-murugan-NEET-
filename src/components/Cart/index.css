@@ -1,0 +1,51 @@
+.cart-container {
+  border-width: 1px;
+  border-style: solid;
+  width: 80%;
+  margin-left: 5%;
+  margin-top: 10px;
+}
+
+.cart-card {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+}
+
+.cart-product {
+  border-width: 1px;
+  border-style: solid;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.span-element {
+  color: black;
+  font-weight: bold;
+}
+
+.delete-button {
+  background-color: black;
+  padding: 10px;
+  color: white;
+  border-width: 0px;
+  margin: 10px;
+  width: 70px;
+}
+
+.pop-card {
+  border-width: 1px;
+  border-style: solid;
+  height: 90px;
+  width: 50%;
+}
+
+.save-button {
+  background-color: black;
+  padding: 10px;
+  color: white;
+  border-width: 0px;
+  margin: 10px;
+}

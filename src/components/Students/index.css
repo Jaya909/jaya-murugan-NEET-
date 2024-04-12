@@ -1,0 +1,21 @@
+.top-students-list-container {
+  background-color: rgb(128, 128, 128);
+  margin: 8px;
+  width: 20%;
+  padding: 30px;
+}
+
+.top-students-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+  .top-students-list-container {
+    width: 50%;
+  }
+  .top-students-list {
+    flex-wrap: wrap;
+  }
+}

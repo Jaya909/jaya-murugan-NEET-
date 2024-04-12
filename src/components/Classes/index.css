@@ -1,0 +1,40 @@
+.classes-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.classes-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 80%;
+}
+
+.video-color {
+  background-color: rgb(128, 128, 128);
+  width: 700px;
+  margin: 15px;
+  height: 200px;
+  margin: 10px;
+}
+
+.practice-button {
+  background-color: black;
+  padding: 10px;
+  color: white;
+  margin-bottom: 10px;
+  border-width: 0px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .classes-card {
+    display: flex;
+    flex-direction: column;
+  }
+  .video-color {
+    width: 400px;
+  }
+}
